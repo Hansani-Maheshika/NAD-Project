@@ -1,0 +1,113 @@
+# Git Ignore for Student Management System
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.eclipse/
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+.vscode/
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build output
+build/
+dist/
+out/
+
+# Tomcat
+work/
+catalina.sh
+catalina.bat
+localhost*
+manager
+host-manager
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database.properties
+db.properties
+
+# Logs
+logs/
+*.log
+log4j.log
+
+# Runtime
+.env
+.env.local
+config.local.properties
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.backup
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Node (if frontend build tools used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.override.yml
+
+# IDE generated files
+*.pyc
+*.pyo
+__pycache__/
+
+# Credentials and Secrets
+.credentials
+secrets/
+config/secrets/
+
+# Test reports
+test-results/
+junit-reports/
+coverage/
+*.trx
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+.~*
+
+# Dependencies (optional - uncomment to track)
+# !logs/
+# !config/
